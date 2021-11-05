@@ -61,11 +61,11 @@ def excel_option(path, log):
                         # 基于status写入测试结果
                         if status:
                             # 写入单元格样式
-                            ExcelConf.pass_(cell=sheet_temp.cell, row=values[0] + 2, column=8)
+                            ExcelConf().pass_(cell=sheet_temp.cell, row=values[0] + 2, column=8)
 
                         else:
                             # 写入单元格样式
-                            ExcelConf.failed_(cell=sheet_temp.cell, row=values[0] + 2, column=8)
+                            ExcelConf().failed_(cell=sheet_temp.cell, row=values[0] + 2, column=8)
                         # 执行excel保存
                         excel.save(path)
                     else:

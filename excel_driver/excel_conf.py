@@ -37,7 +37,6 @@ class ExcelConf:
         cell(row=row, column=column).alignment = self.passStyle['align']
 
         # Failed配置
-
     def failed_(self, cell, row, column):
         # 写入Failed
         cell(row=row, column=column).value = 'Failed'
