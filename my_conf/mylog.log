@@ -1,0 +1,30 @@
+2021-11-05 19:55:05,052 frame_main.py INFO  <module>  文件类型错误：demo.txt
+2021-11-05 19:55:05,057 frame_main.py INFO  <module>  运行./data/data.xlsx测试用例
+2021-11-05 19:55:05,062 excel_read.py INFO  excel_option  ----------Sheet1----------
+2021-11-05 19:55:05,062 excel_read.py INFO  excel_option  正在执行：创建chrome浏览器
+2021-11-05 19:55:06,594 excel_read.py INFO  excel_option  正在执行：访问电商系统
+2021-11-05 19:55:23,581 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 19:55:24,579 excel_read.py INFO  excel_option  正在执行：隐式等待：页面跳转进入登录页
+2021-11-05 19:55:24,594 excel_read.py INFO  excel_option  正在执行：输入账号
+2021-11-05 19:55:24,663 excel_read.py INFO  excel_option  正在执行：输入密码
+2021-11-05 19:55:24,739 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 19:55:24,802 excel_read.py INFO  excel_option  正在执行：隐式等待：弹出登陆成功提示信息
+2021-11-05 19:55:24,889 excel_read.py INFO  excel_option  正在执行：断言：登录后的退出按钮是否存在
+2021-11-05 19:55:26,883 excel_read.py INFO  excel_option  运行异常：pass_() missing 1 required positional argument: 'self'
+2021-11-05 19:55:26,883 frame_main.py INFO  <module>  运行./data/data1.xlsx测试用例
+2021-11-05 19:55:29,069 excel_read.py INFO  excel_option  ----------Sheet1----------
+2021-11-05 19:55:29,069 excel_read.py INFO  excel_option  正在执行：创建chrome浏览器
+2021-11-05 19:55:30,536 excel_read.py INFO  excel_option  正在执行：访问电商系统
+2021-11-05 19:55:51,763 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 19:55:52,723 excel_read.py INFO  excel_option  正在执行：隐式等待：页面跳转进入登录页
+2021-11-05 19:55:52,740 excel_read.py INFO  excel_option  正在执行：输入账号
+2021-11-05 19:55:52,811 excel_read.py INFO  excel_option  正在执行：输入密码
+2021-11-05 19:55:52,906 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 19:55:52,981 excel_read.py INFO  excel_option  正在执行：隐式等待：弹出登陆成功提示信息
+2021-11-05 19:55:53,067 excel_read.py INFO  excel_option  正在执行：断言：登录后的退出按钮是否存在
+2021-11-05 19:55:55,037 web_keywordDriven.py ERROR  assert_text  出现异常，断言失败：退出111!=退出
+Traceback (most recent call last):
+  File "D:\github\ui_frame\ui_keys\web_keywordDriven.py", line 96, in assert_text
+    assert reality == expect, '断言失败'
+AssertionError: 断言失败
+2021-11-05 19:55:55,038 excel_read.py INFO  excel_option  运行异常：failed_() missing 1 required positional argument: 'self'
