@@ -6,8 +6,7 @@
 '''
 import openpyxl
 
-from excel_driver.excel_conf import ExcelConf
-from my_conf import log_conf
+from excel_driver.excel_conf import excelConf
 from ui_keys.web_keywordDriven import WebKey
 
 
@@ -61,17 +60,18 @@ def excel_option(path, log):
                         # 基于status写入测试结果
                         if status:
                             # 写入单元格样式
-                            ExcelConf().pass_(cell=sheet_temp.cell, row=values[0] + 2, column=8)
+                            excelConf.pass_(cell=sheet_temp.cell, row=values[0] + 2, column=8)
 
                         else:
                             # 写入单元格样式
-                            ExcelConf().failed_(cell=sheet_temp.cell, row=values[0] + 2, column=8)
+                            excelConf.failed_(cell=sheet_temp.cell, row=values[0] + 2, column=8)
                         # 执行excel保存
                         excel.save(path)
                     else:
                         getattr(wk, values[1])(**data)
     except Exception as e:
         log.info('运行异常：{}'.format(e))
+        raise e
     finally:
         # 关闭excel
         excel.close()

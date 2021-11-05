@@ -8,8 +8,8 @@ from openpyxl.styles import PatternFill, Border, Side, Alignment, Font
 class ExcelConf:
     def __init__(self):
         # 定义单元格样式：Pass Failed
-        self.border_type_pass = Side(border_style=None, color='C6EFCE'),
-        self.border_type_failed = Side(border_style=None, color='FFC7CE'),
+        self.border_type_pass = Side(border_style=None, color='C6EFCE')
+        self.border_type_failed = Side(border_style=None, color='FFC7CE')
         self.passStyle = {
             'border_pass': Border(left=self.border_type_pass, right=self.border_type_pass, top=self.border_type_pass,
                                   bottom=self.border_type_pass),
@@ -41,7 +41,10 @@ class ExcelConf:
         # 写入Failed
         cell(row=row, column=column).value = 'Failed'
         # 写入单元格样式
-        cell(row=row, column=column).border = self.passStyle['border_failed']
-        cell(row=row, column=column).font = self.passStyle['font_failed']
-        cell(row=row, column=column).fill = self.passStyle['fill_failed']
-        cell(row=row, column=column).alignment = self.passStyle['align']
+        cell(row=row, column=column).border = self.failedStyle['border_failed']
+        cell(row=row, column=column).font = self.failedStyle['font_failed']
+        cell(row=row, column=column).fill = self.failedStyle['fill_failed']
+        cell(row=row, column=column).alignment = self.failedStyle['align']
+
+
+excelConf = ExcelConf()

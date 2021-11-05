@@ -90,3 +90,96 @@ Traceback (most recent call last):
     assert reality == expect, '断言失败'
 AssertionError: 断言失败
 2021-11-05 23:05:07,600 excel_read.py INFO  excel_option  运行异常：expected <class 'openpyxl.styles.borders.Side'>
+2021-11-05 23:13:18,862 frame_main.py INFO  <module>  文件类型错误：demo.txt
+2021-11-05 23:13:18,862 frame_main.py INFO  <module>  运行./data/data.xlsx测试用例
+2021-11-05 23:13:18,916 excel_read.py INFO  excel_option  ----------Sheet1----------
+2021-11-05 23:13:18,917 excel_read.py INFO  excel_option  正在执行：创建chrome浏览器
+2021-11-05 23:13:20,796 excel_read.py INFO  excel_option  正在执行：访问电商系统
+2021-11-05 23:13:27,261 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:13:27,762 excel_read.py INFO  excel_option  正在执行：隐式等待：页面跳转进入登录页
+2021-11-05 23:13:27,778 excel_read.py INFO  excel_option  正在执行：输入账号
+2021-11-05 23:13:27,842 excel_read.py INFO  excel_option  正在执行：输入密码
+2021-11-05 23:13:27,923 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:13:27,987 excel_read.py INFO  excel_option  正在执行：隐式等待：弹出登陆成功提示信息
+2021-11-05 23:13:28,077 excel_read.py INFO  excel_option  正在执行：断言：登录后的退出按钮是否存在
+2021-11-05 23:14:31,913 excel_read.py INFO  excel_option  运行异常：expected <class 'openpyxl.styles.borders.Side'>
+2021-11-05 23:14:48,021 frame_main.py INFO  <module>  运行./data/data1.xlsx测试用例
+2021-11-05 23:14:50,262 excel_read.py INFO  excel_option  ----------Sheet1----------
+2021-11-05 23:14:50,263 excel_read.py INFO  excel_option  正在执行：创建chrome浏览器
+2021-11-05 23:14:51,682 excel_read.py INFO  excel_option  正在执行：访问电商系统
+2021-11-05 23:14:57,941 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:14:59,050 excel_read.py INFO  excel_option  正在执行：隐式等待：页面跳转进入登录页
+2021-11-05 23:14:59,067 excel_read.py INFO  excel_option  正在执行：输入账号
+2021-11-05 23:14:59,133 excel_read.py INFO  excel_option  正在执行：输入密码
+2021-11-05 23:14:59,223 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:14:59,286 excel_read.py INFO  excel_option  正在执行：隐式等待：弹出登陆成功提示信息
+2021-11-05 23:14:59,368 excel_read.py INFO  excel_option  正在执行：断言：登录后的退出按钮是否存在
+2021-11-05 23:15:08,692 web_keywordDriven.py ERROR  assert_text  出现异常，断言失败：退出111!=退出
+Traceback (most recent call last):
+  File "D:\github\ui_frame\ui_keys\web_keywordDriven.py", line 96, in assert_text
+    assert reality == expect, '断言失败'
+AssertionError: 断言失败
+2021-11-05 23:15:16,205 excel_read.py INFO  excel_option  运行异常：expected <class 'openpyxl.styles.borders.Side'>
+2021-11-05 23:21:50,260 frame_main.py INFO  <module>  文件类型错误：demo.txt
+2021-11-05 23:21:50,260 frame_main.py INFO  <module>  运行./data/data.xlsx测试用例
+2021-11-05 23:21:50,275 excel_read.py INFO  excel_option  ----------Sheet1----------
+2021-11-05 23:21:50,275 excel_read.py INFO  excel_option  正在执行：创建chrome浏览器
+2021-11-05 23:21:51,738 excel_read.py INFO  excel_option  正在执行：访问电商系统
+2021-11-05 23:21:56,702 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:21:57,727 excel_read.py INFO  excel_option  正在执行：隐式等待：页面跳转进入登录页
+2021-11-05 23:21:57,742 excel_read.py INFO  excel_option  正在执行：输入账号
+2021-11-05 23:21:57,805 excel_read.py INFO  excel_option  正在执行：输入密码
+2021-11-05 23:21:57,890 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:21:57,942 excel_read.py INFO  excel_option  正在执行：隐式等待：弹出登陆成功提示信息
+2021-11-05 23:21:58,012 excel_read.py INFO  excel_option  正在执行：断言：登录后的退出按钮是否存在
+2021-11-05 23:22:00,032 excel_read.py INFO  excel_option  正在执行：强制等待5秒
+2021-11-05 23:22:05,041 excel_read.py INFO  excel_option  正在执行：关闭浏览器并释放资源
+2021-11-05 23:22:07,276 frame_main.py INFO  <module>  运行./data/data1.xlsx测试用例
+2021-11-05 23:22:07,276 excel_read.py INFO  excel_option  ----------Sheet1----------
+2021-11-05 23:22:07,276 excel_read.py INFO  excel_option  正在执行：创建chrome浏览器
+2021-11-05 23:22:08,551 excel_read.py INFO  excel_option  正在执行：访问电商系统
+2021-11-05 23:22:27,621 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:22:28,628 excel_read.py INFO  excel_option  正在执行：隐式等待：页面跳转进入登录页
+2021-11-05 23:22:28,644 excel_read.py INFO  excel_option  正在执行：输入账号
+2021-11-05 23:22:28,707 excel_read.py INFO  excel_option  正在执行：输入密码
+2021-11-05 23:22:28,781 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:22:28,859 excel_read.py INFO  excel_option  正在执行：隐式等待：弹出登陆成功提示信息
+2021-11-05 23:22:28,940 excel_read.py INFO  excel_option  正在执行：断言：登录后的退出按钮是否存在
+2021-11-05 23:22:30,977 web_keywordDriven.py ERROR  assert_text  出现异常，断言失败：退出111!=退出
+Traceback (most recent call last):
+  File "D:\github\ui_frame\ui_keys\web_keywordDriven.py", line 96, in assert_text
+    assert reality == expect, '断言失败'
+AssertionError: 断言失败
+2021-11-05 23:22:30,977 excel_read.py INFO  excel_option  运行异常：'border_failed'
+2021-11-05 23:23:31,643 frame_main.py INFO  <module>  文件类型错误：demo.txt
+2021-11-05 23:23:31,643 frame_main.py INFO  <module>  运行./data/data.xlsx测试用例
+2021-11-05 23:23:31,643 excel_read.py INFO  excel_option  ----------Sheet1----------
+2021-11-05 23:23:31,643 excel_read.py INFO  excel_option  正在执行：创建chrome浏览器
+2021-11-05 23:23:33,051 excel_read.py INFO  excel_option  正在执行：访问电商系统
+2021-11-05 23:23:38,617 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:23:39,830 excel_read.py INFO  excel_option  正在执行：隐式等待：页面跳转进入登录页
+2021-11-05 23:23:39,845 excel_read.py INFO  excel_option  正在执行：输入账号
+2021-11-05 23:23:39,911 excel_read.py INFO  excel_option  正在执行：输入密码
+2021-11-05 23:23:39,988 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:23:40,054 excel_read.py INFO  excel_option  正在执行：隐式等待：弹出登陆成功提示信息
+2021-11-05 23:23:40,121 excel_read.py INFO  excel_option  正在执行：断言：登录后的退出按钮是否存在
+2021-11-05 23:23:42,102 excel_read.py INFO  excel_option  正在执行：强制等待5秒
+2021-11-05 23:23:47,103 excel_read.py INFO  excel_option  正在执行：关闭浏览器并释放资源
+2021-11-05 23:23:49,329 frame_main.py INFO  <module>  运行./data/data1.xlsx测试用例
+2021-11-05 23:23:49,329 excel_read.py INFO  excel_option  ----------Sheet1----------
+2021-11-05 23:23:49,329 excel_read.py INFO  excel_option  正在执行：创建chrome浏览器
+2021-11-05 23:23:50,699 excel_read.py INFO  excel_option  正在执行：访问电商系统
+2021-11-05 23:23:56,063 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:23:57,274 excel_read.py INFO  excel_option  正在执行：隐式等待：页面跳转进入登录页
+2021-11-05 23:23:57,289 excel_read.py INFO  excel_option  正在执行：输入账号
+2021-11-05 23:23:57,353 excel_read.py INFO  excel_option  正在执行：输入密码
+2021-11-05 23:23:57,430 excel_read.py INFO  excel_option  正在执行：点击登录按钮
+2021-11-05 23:23:57,487 excel_read.py INFO  excel_option  正在执行：隐式等待：弹出登陆成功提示信息
+2021-11-05 23:23:57,570 excel_read.py INFO  excel_option  正在执行：断言：登录后的退出按钮是否存在
+2021-11-05 23:23:59,471 web_keywordDriven.py ERROR  assert_text  出现异常，断言失败：退出111!=退出
+Traceback (most recent call last):
+  File "D:\github\ui_frame\ui_keys\web_keywordDriven.py", line 96, in assert_text
+    assert reality == expect, '断言失败'
+AssertionError: 断言失败
+2021-11-05 23:23:59,488 excel_read.py INFO  excel_option  正在执行：强制等待5秒
+2021-11-05 23:24:04,493 excel_read.py INFO  excel_option  正在执行：关闭浏览器并释放资源
